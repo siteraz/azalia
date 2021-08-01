@@ -1,0 +1,38 @@
+.catalog{
+	display: flex;
+}
+
+.catalog_goods{
+	width: calc(100% - 25rem);
+	padding-left: 2rem;
+}
+
+.catalog_goods_card_img{
+	width: 100%;
+}
+
+.catalog_goods_sale{
+	margin-top: -41.5rem;
+}
+
+.catalog_goods_hit{
+	margin-top: -36rem;
+}
+
+.catalog_goods_favourite{
+	padding-top: 2.5rem;
+	padding-left: 6rem;
+}
+
+.catalog_goods_favourite_thick{
+	padding-top: 2.5rem;
+	padding-left: 6rem;
+}
+
+.goods_catalog{
+	padding-top: 0;
+}
+
+.catalog_goods_cards_col{
+	padding-top: 3.3rem;
+}

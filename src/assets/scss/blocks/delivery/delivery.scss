@@ -1,0 +1,44 @@
+.delivery{
+	display: flex;
+	padding-top: 3.3rem;
+}
+
+.delivery_img{
+	padding-top: 8.7rem;
+}
+
+.delivery_text{
+	padding-left: 2.5rem;
+
+}
+
+.delivery_text h2{
+	font-size: 3.5rem;
+	line-height: 3.7rem;
+	padding-top: 3rem;
+	padding-bottom: 1rem;
+}
+
+.delivery_text_heading{
+	font-size: 4.8rem;
+	line-height: 5rem;
+}
+
+.delivery_text_col{
+	font-family: $m;
+	display: flex;
+	padding-top: 2.2rem;
+}
+
+.delivery_text_col img{
+	width: 1%;
+	height: 1%;
+	margin-top: .6rem;
+}
+
+.delivery_text_col p{
+	font-size: 1.71rem;
+	line-height: 2rem;
+	color: $black;
+	padding-left: 1.3rem;
+}

@@ -1,0 +1,74 @@
+.stock{
+}
+
+.stock_heading{
+    text-align: center;
+    font-size: 4.8rem;
+    line-height: 5rem;
+}
+
+.stock_cols{
+    padding-top: 3rem;
+}
+
+.stock_col{
+    display: flex;
+    font-family: $m;
+    padding-top: 8.6rem;
+}
+
+.stock_col:first-child{
+    padding-top: 0;
+}
+
+.stock_cards_item{
+    width: 50%;
+    margin-right: 3rem;
+}
+
+.stock_cards_item:last-child{
+    margin-right: 0;
+}
+
+.stock_card_img{
+    width: 100%;
+}
+
+.stock_cards_item_heading{
+    text-align: center;
+    font-size: 2.4rem;
+    line-height: 2.5rem;
+    color: $lbrown;
+    padding-top: 2.6rem;
+}
+
+.stock_cards_item_span{
+    font-size: 1.6rem;
+    line-height: 2rem;
+    color: $black;
+    padding-top: 3rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+}
+
+.stock_cards_item_btn{
+    text-align: center;
+    padding-top: 3.3rem;
+}
+
+.stock_cards_item_btn a{
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: #fff;
+    border: .1rem solid $rose;
+    border-radius: 5rem;
+    background-color: $rose;
+    padding: 1.6rem 6rem;
+    transition: color .3s linear;
+    transition: background-color .6s linear;
+}
+
+.stock_cards_item_btn a:hover{
+    color: $rose;
+    background-color: #fff;
+}

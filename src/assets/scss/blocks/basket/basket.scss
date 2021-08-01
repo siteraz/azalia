@@ -1,0 +1,64 @@
+.basket_heading{
+    text-align: center;
+    font-size: 4.8rem;
+    line-height: 5rem;
+}
+
+.basket_table{
+    font-family: $m;
+    text-align-last: left;
+}
+
+.basket_table th, td{
+    padding-left: 1.5rem;
+}
+
+.basket_table th{
+    font-size: 1.6rem;
+    line-height: 2rem;
+    color: $black;
+    padding-top: 3.2rem;
+    border-bottom: 1px solid #D4D4E1;
+    padding-bottom: 3.2rem;
+}
+
+.basket_table td{
+    vertical-align: middle;
+    padding-top: 3.2rem;
+    border-bottom: 1px solid #D4D4E1;
+    padding-bottom: 3.2rem;
+}
+
+.basket_product{
+    display: flex;
+    padding-right: 28vw;
+}
+
+.basket_product_text{
+    padding-top: 1.6rem;
+    padding-left: 2.7rem;
+}
+
+.basket_product_text_heading{
+    font-size: 1.6rem;
+    line-height: 1.7rem;
+    color: $lbrown;
+}
+
+.basket_product_text_span{
+    font-size: 1.6rem;
+    line-height: 1.7rem;
+    color: $black;
+    padding-top: 1rem;
+}
+
+.basket_price{
+    padding-top: 3rem;
+    padding-right: 6.2rem;
+}
+
+.basket_amount{
+    border: 1px solid #d4d4d4;
+    margin-left: 3.2rem;
+    padding: .8rem 1.5rem;
+}

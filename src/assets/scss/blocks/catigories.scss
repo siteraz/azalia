@@ -1,0 +1,35 @@
+.catigories{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 8rem;
+}
+
+.catigories_item{
+	position: relative;
+	width: 33.33333%;
+	height: 100%;
+	padding-right: 2rem;
+}
+
+.catigories_item:last-child{
+	padding-right: 0;
+}
+
+.catigories_item_img{
+	position: relative;
+}
+
+.catigories_item h2{
+	position: absolute;
+	width: 20.6rem;
+	font-size: 3.2rem;
+	line-height: 3.3rem;
+	top: 4rem;
+	right: 5rem;
+	text-align: right;
+	z-index: 3;
+}
+
+.catigories_item:last-child h2{
+	right: 3rem;
+}

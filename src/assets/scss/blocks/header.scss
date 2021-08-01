@@ -1,0 +1,56 @@
+.header{
+	display: flex;
+}
+
+.header_logo{
+	padding-top: 3.8rem;
+	padding-bottom: 3.2rem;
+}
+
+.header_nav{
+	font-family: $m;
+	display: flex;
+	padding-top: 6.1rem;
+	padding-left: 26.5rem;
+}
+
+.header_nav_item{
+	padding-right: 3.2rem;
+}
+
+.header_nav_item:last-child{
+	padding-right: 0;
+}
+
+.header_nav_item a{
+	text-decoration: none;
+	font-size: 1.6rem;
+	color: $black;
+	transition: color .3s;
+}
+
+.header_nav_item a:hover{
+	color: $brown;
+}
+
+.header_phone{
+	font-family: $m;
+	padding-top: 6.1rem;
+	padding-left: 4rem;
+}
+
+.header_phone a{
+	text-decoration: none;
+	font-size: 1.6rem;
+	color: $black;
+}
+
+.basket_img{
+	padding-top: 6.1rem;
+	padding-left: 4rem;
+}
+
+.profile_img{
+	padding-top: 6.1rem;
+	padding-left: 3rem;
+}

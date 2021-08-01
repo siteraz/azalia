@@ -1,0 +1,18 @@
+.main_nav{
+	font-family: $m;
+	font-size: 1.6rem;
+	line-height: 1.7rem;
+	color: $black;
+	padding-top: 3rem;
+}
+
+.main_nav a{
+	font-size: 1.6rem;
+	line-height: 1.7rem;
+	text-decoration: none;
+	color: $black;
+}
+
+.main_nav_item:last-child{
+	color: $brown;
+}

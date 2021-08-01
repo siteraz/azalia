@@ -1,0 +1,127 @@
+.sidebar{
+	width: $sidebar-width;
+	height: 171.2rem;
+	font-family: $m;
+
+	background-color: #FAF6F6;
+	border: .1rem solid #FAF6F6;
+	border-radius: 3rem;
+	margin-top: 8rem;
+}
+
+.sidebar_header{
+	font-size: 1.6rem;
+	line-height: 2rem;
+	color: $brown;
+	padding-top: 2.5rem;
+	padding-left: 2.5rem;
+}
+
+.sidebar_nav{
+	padding-top: 1.4rem;
+	padding-left: 2.5rem;
+}
+
+.sidebar_nav_item{
+	display: block;
+	text-decoration: none;
+	font-size: 1.6rem;
+	line-height: 2rem;
+	color: $black;
+	padding-top: 1.2rem;
+	transition: color .3s;
+}
+
+.sidebar_nav_item:first-child{
+	padding-top: 0;
+}
+
+.sidebar_nav_item:hover{
+	color: $lbrown;
+}
+
+.sidebar_filter{
+	padding-top: 4.5rem;
+	padding-left: 2.5rem;
+}
+
+.sidebar_filter_price{
+	font-size: 1.6rem;
+	line-height: 1.7rem;
+}
+
+.sidebar_filter_goods{
+	padding-top: 4.5rem;
+	font-size: 1.6rem;
+	line-height: 1.7rem;
+}
+
+.sidebar_filter_item{
+	padding-top: 1.4rem;
+}
+
+.sidebar_filter_item_checkbox{
+	position: absolute;
+    z-index: -1;
+    opacity: 0;
+
+    &+label{
+    	display: inline-flex;
+  		align-items: center;
+  		user-select: none;
+    }
+
+    & +label:before{
+    	content: '';
+		display: inline-block;
+		width: 1.1em;
+  		height: 1.1em;
+		flex-shrink: 0;
+		flex-grow: 0;
+		border: .1rem solid #adb5bd;
+		border-radius: 0.25em;
+		margin-right: 0.5em;
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: cover;
+    }
+
+    &:checked +label:before{
+ 		background-image: url('http://localhost:3000/assets/images/slider/checkbox.png');
+ 		background-size: 79%;
+ 		background-position: center;
+    }
+}
+
+.sidebar_filter_btn{
+	text-align: center;
+	margin-top: 6.1rem;
+}
+
+.sidebar_filter_btn a{
+	text-decoration: none;
+	font-size: 1.8rem;
+	color: #fff;
+	border: .1rem solid $rose;
+	border-radius: 5rem;
+	padding: 1.6rem 4rem;
+	background-color: $rose;
+	transition: color .3s linear;
+	transition: background-color .3s linear;
+}
+
+.sidebar_filter_btn a:hover{
+	color: $rose;
+	background-color: #fff;
+}
+
+.sidebar_filter_off{
+	text-align: center;
+	margin-top: 4rem;
+}
+
+.sidebar_filter_off a{
+	color: $brown;
+	font-size: 1.6rem;
+	line-height: 2rem;
+}

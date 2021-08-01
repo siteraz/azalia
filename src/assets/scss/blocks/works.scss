@@ -1,0 +1,27 @@
+.works{
+	font-family: $m;
+	display: flex;
+	justify-content: space-between;
+	padding-top: 8rem;
+	max-width: 120rem;
+	margin: 0 auto;
+}
+
+.works_item{
+	width: 25%;
+	text-align: center;
+}	
+
+.works_item h2{
+	width: 19rem;
+	font-size: 1.8rem;
+	line-height: 1.8rem;
+	padding-top: 1.3rem;
+	margin: 0 auto;
+}
+
+.works_item_img{
+	width: 5.6rem;
+	height: 5.6rem;
+	margin: 0 auto;
+}

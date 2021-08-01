@@ -1,0 +1,54 @@
+.about_team{
+	text-align: center;
+	padding-top: 8rem;
+}
+
+.about_team_heading{
+	font-size: 4.8rem;
+	line-height: 5rem;
+}
+
+.about_team_col{
+	font-family: $m;
+	display: flex;
+	padding-top: 4rem;
+}
+
+.about_team_items{
+	display: flex;
+	justify-content: space-between;
+	margin-left: 5.5rem;
+	margin-right: 5.5rem;
+}
+
+.about_team_item{
+	width: 25%;
+	height: auto;
+	max-width: 23.7rem;
+	margin-right: 6.3rem;
+}
+
+.about_team_item:last-child{
+	margin-right: 0;
+}
+
+.about_team_item h2{
+	font-size: 2rem;
+	line-height: 2.1rem;
+	padding: 1.1rem 0;
+}
+
+.about_team_item p{
+	font-family: $m;
+	font-size: 1.6rem;
+	line-height: 1.7rem;
+	color: $black;
+}
+
+.about_team_left_arrow{
+	padding-top: 7.2rem
+}
+
+.about_team_right_arrow{
+	padding-top: 7.2rem
+}

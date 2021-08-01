@@ -1,0 +1,62 @@
+.stock_vagination{
+	width: 28rem;
+	margin: 0 auto;
+	padding-top: 8rem;
+}
+
+.vagination{
+	display: flex;
+	font-family: $m;
+}
+
+.catalog_vagination{
+	display: flex;
+	font-family: $m;
+	padding-left: 33.2rem;
+	padding-top: 5.3rem
+}
+
+.vagination_number{
+	border: .1rem solid #B2B2B2;
+	padding: .9rem 1.4rem;
+	border-radius: .5rem;
+	margin-right: 1.8rem;
+}
+
+.vagination_number a{
+	text-decoration: none;
+	color: #B2B2B2;
+}
+
+.vagination_number:first-child{
+	padding: .9rem 1.6rem;
+}
+
+.vagination_number:last-child{
+	padding: .9rem 1.4rem;
+	margin-right: 0;
+}
+
+.vagination_left_arrow{
+	padding-top: 1rem;
+	padding-right: 2.3rem;
+	cursor: pointer;
+}
+
+.vagination_right_arrow{
+	padding-top: 1rem;
+	padding-left: 2.3rem;
+	cursor: pointer;
+}
+
+.vagination_numeration{
+	display: flex;
+}
+
+.vagination_active{
+	border: .1rem solid $lbrown;
+}
+
+.vagination_active a{
+	color: $lbrown;
+}

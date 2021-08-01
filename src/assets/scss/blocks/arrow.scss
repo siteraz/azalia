@@ -1,0 +1,21 @@
+.slider_arrow{
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+	width: 121.7rem;
+	max-width: 100%;
+	top: -22.4rem;
+	z-index: 2;
+}
+
+.left_arrow{
+	display: block;
+	cursor: pointer;
+	padding-left: 2.6rem;
+}
+
+.right_arrow{
+	display: block;
+	cursor: pointer;
+	padding-right: 2.6rem;
+}
