@@ -435,12 +435,13 @@ body {
     color: #606C66;
 }
 
-.header_profile {
+.basket_img {
     padding-top: 6.1rem;
     padding-left: 4rem;
 }
 
-.profile {
+.profile_img {
+    padding-top: 6.1rem;
     padding-left: 3rem;
 }
 
@@ -1078,60 +1079,6 @@ footer {
     min-width: 0;
 }
 
-.catalog_vagination {
-    display: -ms-flexbox;
-    display: flex;
-    font-family: Montserrat;
-    padding-left: 33.2rem;
-    padding-top: 5.3rem;
-}
-
-.catalog_vagination_number {
-    border: .1rem solid #B2B2B2;
-    padding: .9rem 1.4rem;
-    border-radius: .5rem;
-    margin-right: 1.8rem;
-}
-
-.catalog_vagination_number a {
-    text-decoration: none;
-    color: #B2B2B2;
-}
-
-.catalog_vagination_number:first-child {
-    padding: .9rem 1.6rem;
-}
-
-.catalog_vagination_number:last-child {
-    padding: .9rem 1.4rem;
-    margin-right: 0;
-}
-
-.vagination_left_arrow {
-    padding-top: 1rem;
-    padding-right: 2.3rem;
-    cursor: pointer;
-}
-
-.vagination_right_arrow {
-    padding-top: 1rem;
-    padding-left: 2.3rem;
-    cursor: pointer;
-}
-
-.catalog_vagination_numeration {
-    display: -ms-flexbox;
-    display: flex;
-}
-
-.vagination_active {
-    border: 0.1rem solid #866663;
-}
-
-.vagination_active a {
-    color: #866663;
-}
-
 .catalog_text {
     font-family: Montserrat;
     padding-top: 8rem;
@@ -1396,4 +1343,210 @@ footer {
 
 .map {
     padding-top: 4rem;
+}
+
+.stock_heading {
+    text-align: center;
+    font-size: 4.8rem;
+    line-height: 5rem;
+}
+
+.stock_cols {
+    padding-top: 3rem;
+}
+
+.stock_col {
+    display: -ms-flexbox;
+    display: flex;
+    font-family: Montserrat;
+    padding-top: 8.6rem;
+}
+
+.stock_col:first-child {
+    padding-top: 0;
+}
+
+.stock_cards_item {
+    width: 50%;
+    margin-right: 3rem;
+}
+
+.stock_cards_item:last-child {
+    margin-right: 0;
+}
+
+.stock_card_img {
+    width: 100%;
+}
+
+.stock_cards_item_heading {
+    text-align: center;
+    font-size: 2.4rem;
+    line-height: 2.5rem;
+    color: #866663;
+    padding-top: 2.6rem;
+}
+
+.stock_cards_item_span {
+    font-size: 1.6rem;
+    line-height: 2rem;
+    color: #606C66;
+    padding-top: 3rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+}
+
+.stock_cards_item_btn {
+    text-align: center;
+    padding-top: 3.3rem;
+}
+
+.stock_cards_item_btn a {
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: #fff;
+    border: 0.1rem solid #E9AAA6;
+    border-radius: 5rem;
+    background-color: #E9AAA6;
+    padding: 1.6rem 6rem;
+    transition: color .3s linear;
+    transition: background-color .6s linear;
+}
+
+.stock_cards_item_btn a:hover {
+    color: #E9AAA6;
+    background-color: #fff;
+}
+
+.stock_vagination {
+    width: 28rem;
+    margin: 0 auto;
+    padding-top: 8rem;
+}
+
+.vagination {
+    display: -ms-flexbox;
+    display: flex;
+    font-family: Montserrat;
+}
+
+.catalog_vagination {
+    display: -ms-flexbox;
+    display: flex;
+    font-family: Montserrat;
+    padding-left: 33.2rem;
+    padding-top: 5.3rem;
+}
+
+.vagination_number {
+    border: .1rem solid #B2B2B2;
+    padding: .9rem 1.4rem;
+    border-radius: .5rem;
+    margin-right: 1.8rem;
+}
+
+.vagination_number a {
+    text-decoration: none;
+    color: #B2B2B2;
+}
+
+.vagination_number:first-child {
+    padding: .9rem 1.6rem;
+}
+
+.vagination_number:last-child {
+    padding: .9rem 1.4rem;
+    margin-right: 0;
+}
+
+.vagination_left_arrow {
+    padding-top: 1rem;
+    padding-right: 2.3rem;
+    cursor: pointer;
+}
+
+.vagination_right_arrow {
+    padding-top: 1rem;
+    padding-left: 2.3rem;
+    cursor: pointer;
+}
+
+.vagination_numeration {
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.vagination_active {
+    border: 0.1rem solid #866663;
+}
+
+.vagination_active a {
+    color: #866663;
+}
+
+.basket_heading {
+    text-align: center;
+    font-size: 4.8rem;
+    line-height: 5rem;
+}
+
+.basket_table {
+    font-family: Montserrat;
+    -moz-text-align-last: left;
+    text-align-last: left;
+}
+
+.basket_table th, td {
+    padding-left: 1.5rem;
+}
+
+.basket_table th {
+    font-size: 1.6rem;
+    line-height: 2rem;
+    color: #606C66;
+    padding-top: 3.2rem;
+    border-bottom: 1px solid #D4D4E1;
+    padding-bottom: 3.2rem;
+}
+
+.basket_table td {
+    vertical-align: middle;
+    padding-top: 3.2rem;
+    border-bottom: 1px solid #D4D4E1;
+    padding-bottom: 3.2rem;
+}
+
+.basket_product {
+    display: -ms-flexbox;
+    display: flex;
+    padding-right: 28vw;
+}
+
+.basket_product_text {
+    padding-top: 1.6rem;
+    padding-left: 2.7rem;
+}
+
+.basket_product_text_heading {
+    font-size: 1.6rem;
+    line-height: 1.7rem;
+    color: #866663;
+}
+
+.basket_product_text_span {
+    font-size: 1.6rem;
+    line-height: 1.7rem;
+    color: #606C66;
+    padding-top: 1rem;
+}
+
+.basket_price {
+    padding-top: 3rem;
+    padding-right: 6.2rem;
+}
+
+.basket_amount {
+    border: 1px solid #d4d4d4;
+    margin-left: 3.2rem;
+    padding: .8rem 1.5rem;
 }
